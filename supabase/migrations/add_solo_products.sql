@@ -1,0 +1,6 @@
+-- Add Solo products (Monthly, Quarterly, Semi-annual, Yearly)
+INSERT INTO products (title, description, price, original_price, category, tag, specifications, stock, delivery_method, cover_image) VALUES
+('Netflix Premium 4K 独享月卡', '个人独享账号，全部Profile可自定义，支持5个设备，隐私安全', 168.00, 198.00, 'solo', '月卡', '{"region": "全球", "quality": "4K", "duration": "1个月", "max_users": 1}', 50, 'automatic', 'https://images.unsplash.com/photo-1522869635100-8f47562584a5?q=80&w=2070&auto=format&fit=crop'),
+('Netflix Premium 4K 独享季卡', '个人独享账号，长期稳定，适合重度追剧用户', 480.00, 568.00, 'solo', '季卡', '{"region": "全球", "quality": "4K", "duration": "3个月", "max_users": 1}', 30, 'automatic', 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=2069&auto=format&fit=crop'),
+('Netflix Premium 4K 独享半年卡', '半年无忧，独享尊贵体验，自动续费保障', 920.00, 1088.00, 'solo', '半年卡', '{"region": "全球", "quality": "4K", "duration": "6个月", "max_users": 1}', 20, 'automatic', 'https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop'),
+('Netflix Premium 4K 独享年卡', '年度最佳选择，彻底告别续费烦恼，一次付费全年畅享', 1780.00, 1998.00, 'solo', '年卡', '{"region": "全球", "quality": "4K", "duration": "12个月", "max_users": 1}', 15, 'automatic', 'https://images.unsplash.com/photo-1593784653056-443460f5884e?q=80&w=2070&auto=format&fit=crop');
