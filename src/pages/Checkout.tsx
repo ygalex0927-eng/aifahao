@@ -79,8 +79,7 @@ export default function Checkout() {
       )
   }
 
-  const discount = 5.00 // Example discount
-  const finalTotal = total - discount
+  const finalTotal = total
 
   return (
     <div className="bg-[#0a0a0a] min-h-screen pt-24 pb-10 px-6">
@@ -131,10 +130,6 @@ export default function Checkout() {
                             <div className="flex justify-between text-sm">
                                 <span className="text-gray-400">小计</span>
                                 <span className="text-white">¥{total.toFixed(2)}</span>
-                            </div>
-                            <div className="flex justify-between text-sm">
-                                <span className="text-gray-400">优惠</span>
-                                <span className="text-green-500">-¥{discount.toFixed(2)}</span>
                             </div>
                             <div className="flex justify-between items-center pt-4 mt-2 border-t border-white/10">
                                 <span className="text-white font-medium">实付金额</span>

@@ -8,6 +8,7 @@ export interface CartItem {
   quantity: number
   cover_image: string
   specifications: any
+  tag?: string
 }
 
 interface CartState {

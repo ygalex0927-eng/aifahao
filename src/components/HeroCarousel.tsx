@@ -7,7 +7,7 @@ const slides = [
     image: 'https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?q=80&w=2070&auto=format&fit=crop',
     title: '花小钱，办大事',
     subtitle: 'Netflix 4K Premium 现已开放 5 人拼车！享受影院级画质，每月低至 ¥38。',
-    cta: '立即上车，享受优惠',
+    cta: '立即上车',
     link: '#hot-sale-section'
   },
   {
