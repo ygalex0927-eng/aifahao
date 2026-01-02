@@ -40,12 +40,6 @@ app.use('/api/tickets', ticketsRoutes)
 app.use('/api/admin', adminRoutes)
 
 /**
- * Serve Static Files (Production)
- */
-// Serve static files from the dist directory
-app.use(express.static(path.join(__dirname, '../dist')))
-
-/**
  * health
  */
 app.use(
@@ -67,14 +61,6 @@ app.use('/api/*', (req: Request, res: Response) => {
     success: false,
     error: 'API not found',
   })
-})
-
-/**
- * SPA Catch-all
- * Send index.html for any other requests (React Router)
- */
-app.get('*', (req: Request, res: Response) => {
-  res.sendFile(path.join(__dirname, '../dist/index.html'))
 })
 
 /**
